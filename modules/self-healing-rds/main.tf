@@ -6,6 +6,7 @@
  */
 
 
+
 locals {
   lambda_function_name = "${var.name_prefix}-rds-healing-function"
   event_rule_name      = "${var.name_prefix}-rds-healing-rule"
